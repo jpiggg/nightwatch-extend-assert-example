@@ -1,0 +1,1 @@
+# nightwatch-extend-assert-example
