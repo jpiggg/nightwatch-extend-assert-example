@@ -1,5 +1,7 @@
 # nightwatch-extend-assert-example
 
+Repository example for issue https://github.com/nightwatchjs/nightwatch/issues/2344
+______________________________________
 
 ## Usage
 
