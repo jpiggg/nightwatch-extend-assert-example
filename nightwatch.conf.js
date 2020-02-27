@@ -32,37 +32,11 @@ module.exports = {
         path: 'reports/visual-regression',
       },
       selenium: {
-        host: 'hw-dock-07.tutu.ru',
+        host: '127.0.0.1',
         port: 4444,
       },
       desiredCapabilities: {
         browserName: 'chrome',
-        chromeOptions: {
-          args: ['--disable-gpu', '--headless'],
-        },
-      },
-    },
-    firefox: {
-      selenium: {
-        host: 'hw-dock-07.tutu.ru',
-        port: 4445,
-      },
-      desiredCapabilities: {
-        browserName: 'firefox',
-        'moz:firefoxOptions': {},
-      },
-    },
-    android: {
-      selenium: {
-        host: 'hw-dock-07.tutu.ru',
-        port: 4723,
-      },
-      desiredCapabilities: {
-        browserName: 'Chrome',
-        platformName: 'Android',
-        platform: 'Android',
-        platformVersion: '8.0',
-        deviceName: 'AVD1',
         chromeOptions: {
           args: ['--disable-gpu', '--headless'],
         },

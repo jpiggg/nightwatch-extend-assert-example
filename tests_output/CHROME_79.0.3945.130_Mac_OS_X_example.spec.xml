@@ -5,9 +5,9 @@
 
   <testsuite name="example.spec"
     errors="0" failures="0" hostname="" id="" package="example.spec" skipped="0"
-    tests="1" time="3.258" timestamp="">
+    tests="1" time="2.743" timestamp="">
   
-    <testcase name="Demo test" classname="example.spec" time="3.258" assertions="1">
+    <testcase name="Demo test" classname="example.spec" time="2.743" assertions="1">
 <system-out>[[ATTACHMENT|some/path/to/screenshot]]</system-out>
     
     </testcase>
