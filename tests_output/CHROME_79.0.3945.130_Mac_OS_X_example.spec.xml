@@ -5,10 +5,10 @@
 
   <testsuite name="example.spec"
     errors="0" failures="0" hostname="" id="" package="example.spec" skipped="0"
-    tests="1" time="2.743" timestamp="">
+    tests="1" time="2.261" timestamp="">
   
-    <testcase name="Demo test" classname="example.spec" time="2.743" assertions="1">
-<system-out>[[ATTACHMENT|some/path/to/screenshot]]</system-out>
+    <testcase name="Demo test" classname="example.spec" time="2.261" assertions="1">
+<system-out>[[ATTACHMENT|screenshots/test.png]]</system-out>
     
     </testcase>
   

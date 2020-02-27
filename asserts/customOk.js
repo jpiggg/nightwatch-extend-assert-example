@@ -1,11 +1,11 @@
-exports.assertion = function(data = {}) {
+exports.assertion = function(screenshotPath = '') {
   let DEFAULT_MSG = 'Testing if attribute %s of <%s> contains "%s".';
   let MSG_ELEMENT_NOT_FOUND = `${DEFAULT_MSG} Element could not be located.`;
   let MSG_ATTR_NOT_FOUND = `${DEFAULT_MSG} Element does not have a attribute.`;
 
   this.message = 'hello world';
   this.data = {
-      screenshots: ['some/path/to/screenshot']
+      screenshots: [screenshotPath]
   };
 
   this.expected = function() {

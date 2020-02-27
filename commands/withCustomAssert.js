@@ -3,7 +3,7 @@ module.exports.command = function() {
     const screenshotPath = `${path}/test.png`
     this.saveScreenshot(screenshotPath);
 
-    this.assert.customOk(true, 'Some message', screenshotPath);
+    this.assert.customOk(screenshotPath);
 
     return this;
   };
