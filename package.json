@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Dolinskaya/nightwatch-extend-assert-example#readme",
   "dependencies": {
-    "nightwatch": "^1.3.4"
+    "nightwatch": "^1.7.13"
   },
   "devDependencies": {
     "selenium-standalone": "^6.17.0"
